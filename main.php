@@ -31,7 +31,7 @@ $top = process($handler);
 fclose($handler);
 
 foreach($top as $id => $avg) {
-    echo $id . ' - ' . $avg . PHP_EOL;
+    echo 'id:' . $id . ' $' . $avg . PHP_EOL;
 }
 
 $time_end = microtime(true);
